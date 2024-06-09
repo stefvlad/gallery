@@ -1,0 +1,56 @@
+[{
+  "_id": {
+    "$oid": "664290552f2eaa486e7f9155"
+  },
+  "name": "KowalGallery",
+  "description": "Galeria obrazków",
+  "updated": {
+    "$date": "2024-05-13T22:12:37.374Z"
+  },
+  "user": {
+    "$oid": "6626f027bb386c82d2be662c"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "664291dd736cef2157979645"
+  },
+  "name": "KowalGallery",
+  "description": "Opis",
+  "updated": {
+    "$date": "2024-05-13T22:19:09.768Z"
+  },
+  "user": {
+    "$oid": "66394d916f6d43c917a9a897"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6642940e8bfdda051ba7ae4a"
+  },
+  "name": "K2Gallery",
+  "description": "Kolejna galeria",
+  "updated": {
+    "$date": "2024-05-13T22:28:30.242Z"
+  },
+  "user": {
+    "$oid": "66394d916f6d43c917a9a897"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6664b0f64d8a3923672de2a4"
+  },
+  "name": "wewef",
+  "description": "wegweg",
+  "updated": {
+    "$date": "2024-06-08T19:28:54.167Z"
+  },
+  "user": {
+    "$oid": "6664a1a9c103cf5c66a372e7"
+  },
+  "__v": 0
+}]

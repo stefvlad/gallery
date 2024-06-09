@@ -1,0 +1,24 @@
+[{
+  "_id": {
+    "$oid": "666510940c31d1dddd47bffc"
+  },
+  "name": "ц45ен243",
+  "description": "45н345н",
+  "path": "12yuoy7p8sr21.png",
+  "gallery": {
+    "$oid": "6664b0f64d8a3923672de2a4"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "666514fa0c31d1dddd47c0f3"
+  },
+  "name": "AAAAAA",
+  "description": "aaaaa",
+  "path": "4fglhwi98qq31.png",
+  "gallery": {
+    "$oid": "6664b0f64d8a3923672de2a4"
+  },
+  "__v": 0
+}]

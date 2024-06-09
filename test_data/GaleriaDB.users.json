@@ -1,0 +1,34 @@
+[{
+  "_id": {
+    "$oid": "6626f027bb386c82d2be662c"
+  },
+  "first_name": "Jan",
+  "last_name": "Kowalski",
+  "username": "jkowalski"
+},
+{
+  "_id": {
+    "$oid": "6626f05fbb386c82d2be662d"
+  },
+  "first_name": "Piotr",
+  "last_name": "Nowak",
+  "username": "pnowak"
+},
+{
+  "_id": {
+    "$oid": "66394d916f6d43c917a9a897"
+  },
+  "first_name": "Stanisław",
+  "last_name": "Kowal",
+  "username": "skowal"
+},
+{
+  "_id": {
+    "$oid": "6664a1a9c103cf5c66a372e7"
+  },
+  "first_name": "Vlad",
+  "last_name": "Stef",
+  "username": "Stef",
+  "password": "$2b$10$p6gxwhpqFh1WzJgWnRHOKOWl.a0aVpw4u7VjYeWOTHnabLNKFogle",
+  "__v": 0
+}]
