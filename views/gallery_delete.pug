@@ -1,0 +1,13 @@
+extends layout
+
+block content
+  h1= title
+  if gallery
+    p Are you sure you want to delete gallery: #{gallery.name}?
+    form(action="/galleries/gallery_delete/#{gallery._id}", method="POST")
+      input(type="hidden", name="galleryid", value=gallery._id)
+      button(type="submit") Delete
+    if error
+      p.error= error
+  else
+    p Gallery not found

@@ -1,0 +1,21 @@
+extends layout
+
+block content
+  h1= title
+  if gallery_list.length
+    each gallery in gallery_list
+      ul
+        hr
+        li
+          | Galeria: #{gallery.name}; Opis: #{gallery.description}; #{gallery.updated};
+          if gallery.user
+            | User: #{gallery.user.last_name}
+          else
+            | User: None
+          // Delete button or link for each gallery
+          br
+          a.btn(href=`/galleries/${gallery._id}/delete`) Delete
+        // Add a new line after each gallery
+        
+  else
+    p There are no any galleries.

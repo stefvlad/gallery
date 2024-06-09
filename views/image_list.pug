@@ -1,0 +1,19 @@
+extends layout
+
+block content
+  h1= title
+  if image_list.length
+    each image in image_list
+      ul
+        hr
+         
+        div.container
+          h2 #{image.name}
+          a Description: #{image.description}
+          img.img-responsive(src=image.path alt=image.path style='height:200px; display:block; margin-bottom: 10px;')
+          
+          a.btn(href=`/images/${image._id}/delete`) Delete
+          span.button-spacing
+          a.btn(href=`/images/${image._id}/change`) Change
+  else
+    p There are no any images.

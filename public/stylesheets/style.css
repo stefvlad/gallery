@@ -1,0 +1,120 @@
+/* General Styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+}
+
+.container-fluid {
+  margin-top: 20px;
+}
+
+/* Sidebar Styling */
+.sidebar-nav {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.sidebar-nav li {
+  margin-bottom: 10px;
+}
+
+.sidebar-nav a {
+  color: #333;
+  text-decoration: none;
+}
+
+.sidebar-nav a:hover {
+  color: #007bff;
+}
+
+.sidebar-nav hr {
+  border: none;
+  border-top: 1px solid #ddd;
+  margin: 10px 0;
+}
+
+/* Form Styling */
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-control {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
+
+/* Galleries Styling */
+.gallery-item {
+  margin-bottom: 20px;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.gallery-item h2 {
+  margin-top: 0;
+}
+
+.gallery-item a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+.gallery-item a:hover {
+  text-decoration: underline;
+}
+
+/* Images Styling */
+.image-item {
+  margin-bottom: 20px;
+}
+
+.image-item h2 {
+  margin-top: 0;
+}
+
+.image-item img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Users Styling */
+.user-item {
+  margin-bottom: 10px;
+}
+
+/* Error Styling */
+.error {
+  color: #dc3545;
+}
+
+
+.btn {
+  display: inline-block;
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+.button-spacing {
+  margin-right: 10px; 
+}
